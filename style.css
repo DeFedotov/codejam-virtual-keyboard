@@ -1,0 +1,271 @@
+.text {
+    display: block;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: black;
+    background-color:white;
+  }
+
+.keyboard {
+      width: 710px;
+      height: 232px;
+      margin: 0 auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+
+.keyboard .row {
+      width: 710px;
+      height: 40px;
+      margin: 0 auto;
+      margin-bottom: 8px; 
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start; 
+  }
+
+.key {
+    width: 40px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 6px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: border-radius .3s;
+}  
+
+.backspace {
+    width: 100px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 6px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: border-radius .3s;
+}
+
+.backspace:hover{
+    background: blue;
+}
+
+.backspace:active{
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.keyboard .row2 {
+    width: 710px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 8px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+.keyTabLeft {
+    width: 50px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 6px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: border-radius .3s;
+}
+
+.keyTabLeft:hover{
+    background: blue;
+}
+
+.keyTabLeft:active{
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.enter {
+    width: 90px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 6px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: border-radius .3s;
+}
+
+.enter:hover{
+    background: blue;
+}
+
+.enter:active{
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.keyboard .row3 {
+    width: 710px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 8px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.enter2 {
+    width: 86px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 6px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: border-radius .3s;
+}
+
+.enter2:hover{
+    background: blue;
+}
+
+.enter2:active{
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.caps {
+    width: 100px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 6px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: border-radius .3s;
+}
+
+.caps:hover{
+    background: blue;
+}
+
+.caps:active{
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.keyboard .row4 {
+    width: 710px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 8px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+.shiftL {
+    width: 54px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 6px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: border-radius .3s;
+}  
+
+.shiftL:hover{
+    background: blue;
+}
+
+.shiftL:active{
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.shiftR {
+    width: 86px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 6px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: border-radius .3s;
+}
+
+.shiftR:hover{
+    background: blue;
+}
+
+.shiftR:active{
+    background-color: brown;
+    border-radius: 50px; 
+}
+ 
+.keyboard .row5 {
+    width: 710px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 8px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.space {
+    width: 224px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 6px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: border-radius .3s;
+}
+
+.space:hover{
+    background: blue;
+}
+
+.space:active{
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.key:hover{
+    background: blue;
+}
+
+.key:active{
+    background-color: brown;
+    border-radius: 50px;
+}
+
